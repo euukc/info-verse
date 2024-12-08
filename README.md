@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# InfoVerse 🌌
 
-## Getting Started
+**InfoVerse** é uma plataforma que reúne informações diversas, como cotações de moedas, previsão do tempo, notícias e curiosidades, tudo acessível de maneira simples e intuitiva. A aplicação é construída com **Next.js** no frontend e **Node.js + Express** no backend, que se comunica com APIs externas para buscar dados dinâmicos e exibi-los em tempo real.
 
-First, run the development server:
+## Tecnologias Utilizadas 🚀
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Frontend:** Next.js
+- **Backend:** Node.js + Express
+- **API Externa:** Axios para fazer requisições HTTP
+- **Outros:** Tailwind CSS para estilização e Vercel para deploy
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades 🔍
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Cotações de moedas:** Mostra as cotações atuais de Dólar, Euro e Bitcoin em tempo real.
+- **Previsão do Tempo:** Exibe a previsão do tempo com base na localização definida.
+- **Notícias e Curiosidades:** Mostra informações relacionadas a vários tópicos como notícias, ciência, tecnologia e outros.
+- **Informações sobre a SELIC e eventos financeiros.**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+// Ainda em deselvimento - a ideia é fazer requisições para várias apis publicas e informar todo o dia de assunto, além disso, para não ficar fazendo chamadas toda vez que atualizar a págiona, posteriormente iriei adicionar os dados num banco de dados, MongoDB, para diminuir as chamadas externas e não ultrapassar o limite de uso das API free.
