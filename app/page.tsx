@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { fetchCotacoes, fetchPrevisao } from "./services/api";
-import CotacaoCard from "./cotacoes/page";
+import CotacaoCard from "./cotacoes/components/CotacaoCard";
 import PrevTempCard from "./climatempo/components/PrevTempCard";
 import Image from "next/image";
 
