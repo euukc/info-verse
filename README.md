@@ -16,4 +16,4 @@
 - **Notícias e Curiosidades:** Mostra informações relacionadas a vários tópicos como notícias, ciência, tecnologia e outros.
 - **Informações sobre a SELIC e eventos financeiros.**
 
-// Ainda em deselvimento - a ideia é fazer requisições para várias apis publicas e informar todo o dia de assunto, além disso, para não ficar fazendo chamadas toda vez que atualizar a págiona, posteriormente iriei adicionar os dados num banco de dados, MongoDB, para diminuir as chamadas externas e não ultrapassar o limite de uso das API free.
+// Ainda em desenvolvimento - a ideia é fazer requisições para várias APIs públicas e informar todo o tipo de assunto, além disso, para não ficar fazendo chamadas toda vez que atualizar a página, posteriormente iriei adicionar os dados num banco de dados, MongoDB, para diminuir as chamadas externas e não ultrapassar o limite de uso das APIs free.
