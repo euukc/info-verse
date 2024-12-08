@@ -29,7 +29,6 @@ export const fetchCotacoes = async () => {
     }
 };
 
-
 //Previsão do Tempo
 const UrlPrevisao = 'http://localhost:3001/api/prevTempo';
 
